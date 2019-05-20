@@ -1,0 +1,145 @@
+/* Global resets */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #424242;
+	line-height: 1.4;
+}
+
+/* Fonts */
+h1 {
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.container {
+	margin: 2em auto;
+	max-width: 500px;
+	text-align: center;
+	font-family: "rooney-web";
+}
+
+/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+
+	FONTS:
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+
+  COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS code goes here */
+
+.black-box {
+	border: 15px solid #424242;
+	background-color: #424242;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 23px;
+	font-family: Rockwell;
+}
+
+.donation-box {
+	border: 2px solid #eaeaea;
+	font-size: 20px;
+	color: #777;
+	font-family: Rockwell;
+	max-width: 500px;
+	text-align: left;
+	padding: 25px;
+	height:310px;
+}
+.orange-bar {
+	border: 3px solid #eaeaea;
+	width: 300px;
+	color: #EF5F3C;
+	margin-top: 30px;
+	height: 30px;
+	background-color: #EF5F3C;
+}
+
+.days-left {
+	color: #EF5F3C;
+}
+
+#donor-box {
+	margin-top: 20px;
+	width: 400px;
+}
+
+.form-box{
+	display: block;
+	margin-top: 10px;
+}
+.form-box input{
+	width: 200px;
+	padding: 20px;
+	border-radius: 10px;
+	border-color: #eaeaea;
+	font-size: 28px;
+	margin-right: 40px;
+}
+
+.form-box button {
+	width: 200px;
+	padding: 25px;
+	border-radius: 10px;
+	border-color: #eaeaea;
+	font-size: 20px;
+	background-color: #1CBC2C;
+	color: white;
+	margin-top:2px;
+	font-size: 25px;
+}
+
+#why-link {
+	float: left;
+	margin-top: 10px;
+	color: #20A1D4;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.bottom-box {
+	width: 500px;
+	padding: 25px;
+}
+.bottom-box button {
+	width: 180px;
+	padding: 20px;
+	border-radius: 10px;
+	border-color: #eaeaea;
+	font-size: 10px;
+	background-color: #1CBC2C;
+	color: #777;
+	margin-top:2px;
+	font-size: 25px;
+	margin: 5px;
+	background-color: white;
+	border: 3px solid #eaeaea;
+}
+
+#save {
+	width: 190px;
+	margin-right: 10px;
+}
+
+#friends {
+	width: 230px;
+}
+
+
+
+
